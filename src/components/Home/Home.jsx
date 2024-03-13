@@ -4,6 +4,8 @@ import "./Home.css";
 import Wrapper from "../Wrapper/Wrapper";
 import Content from "./Content";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import gfg from "../../assets/gfg.png";
+import leetcode from "../../assets/leetcode.png"; 
 
 const Home = () => {
   return (
@@ -17,14 +19,10 @@ const Home = () => {
             <Content />
             <div className="coding d-flex mt-5 w-100">
               <a href="https://auth.geeksforgeeks.org/user/chinda_ronit/">
-                <img src="./src/assets/gfg.png" alt="gfg" className="logo" />
+                <img src={gfg} alt="gfg" className="logo" />
               </a>
               <a href="https://leetcode.com/_victus_/">
-                <img
-                  src="./src/assets/leetcode.png"
-                  alt="leetcode"
-                  className="ml-2 logo"
-                />
+                <img src={leetcode} alt="leetcode" className="ml-2 logo" />
               </a>
               <a href="https://github.com/chindaronit">
                 <GitHubIcon className="logo ml-2" />
