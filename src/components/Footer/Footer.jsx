@@ -20,7 +20,7 @@ const Footer = () => {
         </Navbar.Brand>
         <Navbar className="justify-content-end footbar">
           <Nav className="d-block">
-            <div className="w-100 contact-me">React Me Here!</div>
+            <div className="w-100 contact-me">Reach Me Here!</div>
             <div className="d-flex">
               <Nav.Link href="https://www.linkedin.com/in/chindaronit/">
                 <LinkedInIcon />
