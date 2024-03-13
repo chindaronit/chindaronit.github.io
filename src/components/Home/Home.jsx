@@ -6,7 +6,7 @@ import Content from "./Content";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import gfg from "../../assets/gfg.png";
 import leetcode from "../../assets/leetcode.png";
-import profile from "../../assests/profile.JPG";
+import profile from "../../assets/profile.JPG";
 
 const Home = () => {
   return (
