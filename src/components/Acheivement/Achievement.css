@@ -1,0 +1,13 @@
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: cursor;
+  font-weight: bold;
+  opacity: 0.75;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: black;
+}

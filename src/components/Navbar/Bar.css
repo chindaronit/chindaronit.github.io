@@ -1,0 +1,16 @@
+#brand {
+  font-size: xx-large;
+}
+
+.nav-link {
+  font-size: large;
+}
+
+.navbar {
+  padding: 1rem;
+  box-shadow: 2px 2px 1px 0 rgba(0, 0, 0, 0.01),
+    0 10px 20px 0 rgba(0, 0, 0, 0.075);
+  #brand {
+    font-weight: bold;
+  }
+}

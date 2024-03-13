@@ -1,0 +1,132 @@
+.profile {
+  .profile-img {
+    max-width: 16vw;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    padding: 0.2rem;
+    border: 3px solid #2196f3;
+  }
+}
+
+.over-hid {
+  overflow: hidden;
+}
+
+.content {
+  min-width: 30rem;
+}
+
+.name {
+  font-weight: bold;
+  color: #2196f3;
+}
+
+.coding {
+  .logo {
+    width: 2.5rem;
+    border: thin solid rgba(0, 0, 0, 0.062);
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    font-size: 40px;
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .profile {
+    .profile-img {
+      display: none;
+    }
+  }
+  .p-5 {
+    padding: 1rem !important;
+  }
+  .name-intro {
+    font-size: 22px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .mt-5 {
+    margin-top: 0rem !important;
+  }
+
+  .ml-5 {
+    margin-left: 0rem !important;
+  }
+
+  .button {
+    padding: 0.4rem;
+  }
+  .content {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    box-sizing: border-box !important;
+  }
+
+  .name {
+    font-weight: bold;
+    color: #2196f3;
+  }
+
+  .coding {
+    .logo {
+      width: 2.5rem;
+      border: thin solid rgba(0, 0, 0, 0.062);
+      padding: 0.25rem;
+      border-radius: 0.5rem;
+      font-size: 40px;
+      color: black;
+    }
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .profile {
+    .profile-img {
+      max-width: 25vw;
+    }
+  }
+  .p-5 {
+    padding: 1rem !important;
+  }
+  .name-intro {
+    font-size: 22px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .mt-5 {
+    margin-top: 1rem !important;
+  }
+
+  .ml-5 {
+    margin-left: 1rem !important;
+  }
+
+  .button {
+    padding: 0.4rem;
+  }
+  .content {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    box-sizing: border-box !important;
+  }
+
+  .name {
+    font-weight: bold;
+    color: #2196f3;
+  }
+
+  .coding {
+    .logo {
+      width: 2.5rem;
+      border: thin solid rgba(0, 0, 0, 0.062);
+      padding: 0.25rem;
+      border-radius: 0.5rem;
+      font-size: 40px;
+      color: black;
+    }
+  }
+}
