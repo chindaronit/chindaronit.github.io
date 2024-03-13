@@ -5,7 +5,8 @@ import Wrapper from "../Wrapper/Wrapper";
 import Content from "./Content";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import gfg from "../../assets/gfg.png";
-import leetcode from "../../assets/leetcode.png"; 
+import leetcode from "../../assets/leetcode.png";
+import profile from "../../assests/profile.JPG";
 
 const Home = () => {
   return (
@@ -31,11 +32,7 @@ const Home = () => {
           </div>
           <div className="d-flex justify-content-end w-100">
             <div className="profile">
-              <img
-                src="https://github.com/chindaronit/chindaronit.github.io/blob/main/public/profile.JPG?raw=true"
-                alt="Profile"
-                className="profile-img"
-              />
+              <img src={profile} alt="Profile" className="profile-img" />
             </div>
           </div>
         </div>
