@@ -29,7 +29,7 @@ export const Skillsdata = [
       "AWS cloudfront",
       "AWS Beanstalk",
       "Autoscaling",
-      "LoadBalancing",
+      "Load Balancing",
       "Containerization",
       "Microservices",
     ],

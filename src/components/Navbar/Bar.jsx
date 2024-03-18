@@ -7,7 +7,7 @@ const Bar = () => {
   return (
     <Navbar expand="xl" className="bg-body-tertiary navbar">
       <Container id="home">
-        <Navbar.Brand id="brand">Welcome!</Navbar.Brand>
+        <Navbar.Brand id="brand">chinda_ronit</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav className="me-auto">

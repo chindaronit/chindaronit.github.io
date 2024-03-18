@@ -4,7 +4,7 @@ import { ReactTyped } from "react-typed";
 const Content = () => {
   return (
     <div className="content">
-      <h5>
+      <h3>
         I'm a{" "}
         <ReactTyped
           strings={[
@@ -18,8 +18,9 @@ const Content = () => {
           backSpeed={20}
           cursorChar=">"
           showCursor={true}
+          style={{ color: "#2196f3" }}
         />
-      </h5>
+      </h3>
     </div>
   );
 };

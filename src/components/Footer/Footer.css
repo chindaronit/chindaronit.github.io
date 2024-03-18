@@ -6,4 +6,32 @@
   text-align: center;
   font-weight: bold;
   font-size: larger;
+  opacity: 0.35; /* Initial opacity */
+  animation: fadeInOpacity 0.75s ease-in-out infinite alternate; /* Animation name, duration, timing function, and fill mode */
+}
+
+@keyframes fadeInOpacity {
+  from {
+    opacity: 0.35; /* Starting opacity */
+  }
+  to {
+    opacity: 1; /* Final opacity */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #contact {
+    .navbar-brand {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      text-align: center !important;
+      margin: 0 !important;
+    }
+    .footbar {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+    }
+  }
 }

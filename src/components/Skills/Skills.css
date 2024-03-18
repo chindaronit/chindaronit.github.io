@@ -1,16 +1,38 @@
+.skills-component {
+  padding: 5vh 5vw;
+}
+
 .skills-card {
-  width: 15rem;
-  margin: 0 1rem 1rem 1rem;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0);
-  transition: 0.5s box-shadow ease-in-out;
+  width: 20rem;
+  padding: 1rem 0.5rem;
+  margin: 0 2rem 2rem 2rem;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  transition: 0.25s box-shadow ease-in-out;
+
+  .card-title {
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+
+  .skill-item {
+    margin: 0.5rem 0;
+  }
 }
 
 .skills-card:hover {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0);
 }
 
 @media only screen and (max-width: 600px) {
+  .skills-component {
+    padding: 5vh 2vw;
+  }
+
   .skills-card {
+    margin: 0 1rem 1rem 1rem;
     li {
       margin-left: 2rem;
     }

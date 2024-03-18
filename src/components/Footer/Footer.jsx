@@ -18,7 +18,7 @@ const Footer = () => {
           <CopyrightIcon />
           2023
         </Navbar.Brand>
-        <Navbar className="justify-content-end footbar">
+        <Navbar className="footbar">
           <Nav className="d-block">
             <div className="w-100 contact-me">Reach Me Here!</div>
             <div className="d-flex">

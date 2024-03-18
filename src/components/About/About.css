@@ -1,3 +1,7 @@
+.about-component {
+  padding: 5vh 5vw;
+}
+
 .about-card {
   position: relative;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0);
@@ -22,6 +26,7 @@
   }
   .about-card {
     width: 12rem;
+
     .logo {
       top: 5%;
       right: 5%;

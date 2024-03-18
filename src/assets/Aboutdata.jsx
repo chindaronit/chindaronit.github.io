@@ -1,6 +1,6 @@
 export const Aboutdata = [
   {
-    title: "Marticulation",
+    title: "Matriculation",
     card_title: "DAV Centenary School",
     logo: [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZbPXAWK7nIpeous2Y158279Td7tV1BeJvEXmr7Z-aAQ&s",

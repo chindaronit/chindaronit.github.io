@@ -1,12 +1,25 @@
 .profile {
+  padding: 0;
   .profile-img {
-    max-width: 16vw;
-    margin-bottom: 2rem;
-    border-radius: 0.5rem;
+    width: 20vw;
+    border-radius: 50%;
     object-fit: cover;
-    padding: 0.2rem;
-    border: 3px solid #2196f3;
+    padding: 0.15rem;
+    border: 3px solid #000000a2;
   }
+}
+
+.home-component {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 12vw;
+}
+
+.home-card {
+  display: flex;
+  justify-content: space-between;
 }
 
 .over-hid {
@@ -14,12 +27,18 @@
 }
 
 .content {
+  margin: 1rem 0;
   min-width: 30rem;
 }
 
 .name {
   font-weight: bold;
   color: #2196f3;
+}
+
+.home-info {
+  margin-top: 5rem;
+  margin-left: 5rem;
 }
 
 .coding {
@@ -34,99 +53,37 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .home-component {
+    margin: 0 5vw;
+  }
+
+  .home-card {
+    display: block;
+  }
+
   .profile {
+    display: flex;
+    justify-content: center;
     .profile-img {
-      display: none;
-    }
-  }
-  .p-5 {
-    padding: 1rem !important;
-  }
-  .name-intro {
-    font-size: 22px;
-    box-sizing: border-box;
-    width: 100%;
-  }
-
-  .mt-5 {
-    margin-top: 0rem !important;
-  }
-
-  .ml-5 {
-    margin-left: 0rem !important;
-  }
-
-  .button {
-    padding: 0.4rem;
-  }
-  .content {
-    margin-top: 1rem;
-    margin-bottom: 3rem;
-    box-sizing: border-box !important;
-  }
-
-  .name {
-    font-weight: bold;
-    color: #2196f3;
-  }
-
-  .coding {
-    .logo {
-      width: 2.5rem;
-      border: thin solid rgba(0, 0, 0, 0.062);
+      width: 50vw;
       padding: 0.25rem;
-      border-radius: 0.5rem;
-      font-size: 40px;
-      color: black;
     }
   }
-}
 
-@media only screen and (min-width: 601px) and (max-width: 900px) {
-  .profile {
-    .profile-img {
-      max-width: 25vw;
-    }
-  }
-  .p-5 {
-    padding: 1rem !important;
-  }
-  .name-intro {
-    font-size: 22px;
-    box-sizing: border-box;
-    width: 100%;
-  }
-
-  .mt-5 {
-    margin-top: 1rem !important;
-  }
-
-  .ml-5 {
-    margin-left: 1rem !important;
-  }
-
-  .button {
-    padding: 0.4rem;
-  }
-  .content {
+  .home-info {
     margin-top: 1rem;
-    margin-bottom: 3rem;
-    box-sizing: border-box !important;
+    margin-left: 1rem;
   }
 
-  .name {
-    font-weight: bold;
-    color: #2196f3;
-  }
-
-  .coding {
-    .logo {
-      width: 2.5rem;
-      border: thin solid rgba(0, 0, 0, 0.062);
-      padding: 0.25rem;
-      border-radius: 0.5rem;
-      font-size: 40px;
-      color: black;
+  .content {
+    margin: 1rem 0;
+    min-width: 0rem;
+    h3 {
+      font-size: large;
     }
+  }
+
+  .name-intro {
+    font-size: 24px;
   }
 }
