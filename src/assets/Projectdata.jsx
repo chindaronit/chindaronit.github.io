@@ -1,8 +1,19 @@
 import influx from "./influx.png";
 import upsideAvenue from "./upsideAvenue.png";
 import checkers from "./checkers.png";
+import penny from "./penny.png";
 
 export const Projectdata = [
+  {
+    img: penny,
+    title: "Penny",
+    subtitle: "Personal Project",
+    desc: [
+      "Penny—an expense tracker to help you monitor your spending. Penny allows users to log transactions, manage accounts and provides monthly spending analysis based on predefined categories like groceries, travel, food, shopping, rent, etc. ",
+    ],
+    tech_stack: ["Kotlin", "Firebase Authentication", "Firebase Firestore"],
+    link: "https://github.com/chindaronit/penny",
+  },
   {
     img: influx,
     title: "Influx",
