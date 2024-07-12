@@ -1,40 +1,91 @@
 .skills-component {
   padding: 5vh 5vw;
+  margin: 0 5vw;
 }
 
-.skills-card {
-  width: 20rem;
-  padding: 1rem 0.5rem;
-  margin: 0 2rem 2rem 2rem;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-  transition: 0.25s box-shadow ease-in-out;
+.skill-item {
+  margin-bottom: 2rem;
+  padding: 2rem 0;
 
-  .card-title {
-    font-size: larger;
+  h2 {
+    text-align: center;
     font-weight: bold;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    margin-left: 1rem;
+    margin-bottom: 2rem;
+    color: #0070cc;
+    img {
+      width: 3rem;
+    }
   }
 
-  .skill-item {
-    margin: 0.5rem 0;
+  .item-icon {
+    font-size: 4rem;
+    color: #2196f3;
   }
-}
 
-.skills-card:hover {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0);
+  .tech-stack {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .skills-card {
+      display: flex;
+      justify-content: center;
+      width: 10rem;
+      height: 10rem;
+      padding: 2rem 2rem;
+      margin: 0 1.5rem 1.5rem 1.5rem;
+      box-shadow: 0 4px 8px 0 rgba(33, 150, 243, 0.45),
+        0 6px 20px 0 rgba(33, 150, 243, 0.25);
+      transition: 0.25s box-shadow ease-out;
+      img {
+        filter: opacity(75%);
+      }
+    }
+
+    .skills-card:hover {
+      box-shadow: 0 4px 4px 0 rgba(33, 150, 243, 0),
+        0 6px 20px 0 rgba(33, 150, 243, 0);
+      img {
+        filter: opacity(100%);
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .skills-component {
-    padding: 5vh 2vw;
+    padding: 4vh 4vw;
+    margin: 0 0;
+    h1 {
+      font-size: 32px;
+    }
+    
   }
 
-  .skills-card {
-    margin: 0 1rem 1rem 1rem;
-    li {
-      margin-left: 2rem;
+  .skill-item {
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+
+    h2 {
+      font-size: large;
+      img {
+        width: 2rem;
+      }
+    }
+
+    .item-icon {
+      font-size: 2rem;
+      color: #2196f3;
+    }
+
+    .tech-stack {
+      .skills-card {
+        width: 5rem;
+        height: 5rem;
+        padding: 1rem 1rem;
+        margin: 0 1rem 1rem 0;
+      }
     }
   }
 }

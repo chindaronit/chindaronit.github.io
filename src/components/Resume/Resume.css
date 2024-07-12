@@ -1,0 +1,55 @@
+.resume {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .pdf {
+    height: auto;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+  }
+}
+
+.download-cv {
+  margin-top: 5rem;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .resume {
+    margin: 2rem 0.25rem;
+
+    .pdf {
+      padding: 0.15rem;
+      border: 1px solid black;
+      border-radius: 0.25rem;
+    }
+  }
+
+  .download-cv {
+    margin-top: 3rem;
+  }
+
+  .react-pdf__Document {
+    --scale-factor: 1 !important;
+    min-width: 100% !important;
+    min-height: 100% !important;
+
+    .react-pdf__Page__canvas {
+      width: 100% !important;
+      height: 100% !important;
+    }
+    .react-pdf__Page__textContent {
+      width: 100% !important;
+      height: 100% !important;
+    }
+    .react-pdf__Page__annotations {
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
+}

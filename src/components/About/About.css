@@ -17,10 +17,18 @@
 }
 
 .about-card:hover {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 4px 0 rgba(33, 150, 243, 0.5),
+        0 6px 20px 0 rgba(33, 150, 243, 0.5);
 }
 
 @media only screen and (max-width: 600px) {
+  .about-component {
+    padding: 5vh 2vw;
+    h1{
+      font-size: 32px;
+    }
+  }
+
   .about-card-opposite {
     font-size: 12px !important;
   }

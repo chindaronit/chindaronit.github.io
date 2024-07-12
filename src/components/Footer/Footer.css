@@ -1,37 +1,20 @@
-.footbar {
-  box-shadow: none;
+.p-0{
+  padding: 0 !important;
 }
 
-.contact-me {
-  text-align: center;
-  font-weight: bold;
-  font-size: larger;
-  opacity: 0.35; /* Initial opacity */
-  animation: fadeInOpacity 0.75s ease-in-out infinite alternate; /* Animation name, duration, timing function, and fill mode */
+.col-black:hover{
+  color: black !important;
 }
 
-@keyframes fadeInOpacity {
-  from {
-    opacity: 0.35; /* Starting opacity */
-  }
-  to {
-    opacity: 1; /* Final opacity */
-  }
+.footbar{
+  display: flex;
 }
 
 @media only screen and (max-width: 600px) {
   #contact {
+    justify-content: center;
     .navbar-brand {
-      display: flex;
-      width: 100%;
-      justify-content: center;
-      text-align: center !important;
       margin: 0 !important;
-    }
-    .footbar {
-      display: flex;
-      width: 100%;
-      justify-content: center;
     }
   }
 }

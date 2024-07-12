@@ -1,23 +1,24 @@
 import "./App.css";
 import Bar from "./components/Navbar/Bar";
 import About from "./components/About/About";
-import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
-import Acheivement from "./components/Acheivement/Achievement";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Resume from "./components/Resume/Resume";
 
 function App() {
   return (
-    <>
+    <Router>
       <Bar />
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
-      <Acheivement />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
       <Footer />
-    </>
+    </Router>
   );
 }
 

@@ -22,6 +22,9 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.1",
     "react-dom": "^18.2.0",
+    "react-pdf": "^9.1.0",
+    "react-router": "^6.24.1",
+    "react-router-dom": "^6.24.1",
     "react-typed": "^2.0.12"
   },
   "devDependencies": {

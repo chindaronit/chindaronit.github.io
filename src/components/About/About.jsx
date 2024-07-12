@@ -12,14 +12,15 @@ import Wrapper from "../Wrapper/Wrapper";
 import { Card } from "react-bootstrap";
 import { Aboutdata } from "../../assets/Aboutdata";
 import "./About.css";
+import Skills from "../Skills/Skills";
 
 const About = () => {
   return (
     <Wrapper>
       <div className="about-component">
-        <h2 className="section-title mb-5" id="about">
-          Education & Experience
-        </h2>
+        <h1 className="section-title mb-5">
+          Know Who <span className="name">I'M</span>
+        </h1>
         <Timeline
           sx={{
             [`& .${timelineOppositeContentClasses.root}`]: {
@@ -74,6 +75,7 @@ const About = () => {
           })}
         </Timeline>
       </div>
+      <Skills />
     </Wrapper>
   );
 };

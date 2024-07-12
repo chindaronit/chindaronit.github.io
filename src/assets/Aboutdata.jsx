@@ -6,7 +6,7 @@ export const Aboutdata = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZbPXAWK7nIpeous2Y158279Td7tV1BeJvEXmr7Z-aAQ&s",
     ],
     time: "- Apr 2019",
-    additional: "Grade - 86%",
+    additional: "Grade - 87%",
   },
   {
     title: "Intermidiate",
@@ -15,7 +15,7 @@ export const Aboutdata = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZbPXAWK7nIpeous2Y158279Td7tV1BeJvEXmr7Z-aAQ&s",
     ],
     time: "May 2019 - Apr 2021",
-    additional: "Grade - 87%",
+    additional: "Grade - 88%",
   },
   {
     title: "Under-Graduation",
@@ -24,7 +24,7 @@ export const Aboutdata = [
       "https://upload.wikimedia.org/wikipedia/en/2/22/Indian_Institute_of_Information_Technology%2C_Guwahati_Logo.svg",
     ],
     time: "Dec 2021 - Present",
-    additional: "CGPA - 8.3",
+    additional: "CGPA - 8.44",
   },
   {
     title: "Volunteer Experience",

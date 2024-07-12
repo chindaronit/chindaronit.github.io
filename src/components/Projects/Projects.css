@@ -9,7 +9,6 @@
     max-width: 35vw;
     max-height: 25vw;
     border-radius: 1rem;
-    border: 2px solid black;
     padding: 0.1rem;
   }
   .open-in-new-icon {
@@ -86,6 +85,13 @@
 @media only screen and (max-width: 600px) {
   .project-component {
     padding: 5vh 2vw;
+
+    h1{
+      font-size: 32px;
+    }
+    h4 {
+      font-size: 14px;
+    }
   }
 
   .project-img-div {
@@ -138,6 +144,7 @@
     svg {
       font-size: 36px;
       border: 2px solid black;
+      color: black;
       border-radius: 50%;
     }
   }

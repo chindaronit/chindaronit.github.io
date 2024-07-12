@@ -10,9 +10,13 @@ const Projects = () => {
   return (
     <Wrapper className="greyscale">
       <div className="project-component">
-        <h2 className="section-title" id="projects">
-          Projects
-        </h2>
+        <h1 className="section-title" id="projects">
+          My Recent <span className="name">Works</span>
+        </h1>
+        <h4 className="section-subtitle">
+          Here are a few <span className="name">projects</span> on which I've worked
+          recently.
+        </h4>
         {Projectdata?.map((item, index) => {
           return (
             <div className="project-card" key={index}>

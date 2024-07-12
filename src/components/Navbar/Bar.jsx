@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./Bar.css";
+import { Link } from "react-router-dom";
 
 const Bar = () => {
   return (
@@ -11,21 +12,18 @@ const Bar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav className="me-auto">
-            <Nav.Link href="#home" className="nav-link">
-              Home
-            </Nav.Link>
-            <Nav.Link href="#about" className="nav-link">
-              About
-            </Nav.Link>
-            <Nav.Link href="#skills" className="nav-link">
-              Skills
-            </Nav.Link>
-            <Nav.Link href="#projects" className="nav-link">
-              Projects
-            </Nav.Link>
-            <Nav.Link href="#contact" className="nav-link">
-              Contact
-            </Nav.Link>
+            <Link to={"/"}>
+              <div className="nav-link hover-underline-animation">Home</div>
+            </Link>
+            <Link to={"/about"}>
+              <div className="nav-link hover-underline-animation">About</div>
+            </Link>
+            <Link to="/projects">
+              <div className="nav-link hover-underline-animation">Projects</div>
+            </Link>
+            <Link to="/resume">
+              <div className="nav-link hover-underline-animation">Resume</div>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

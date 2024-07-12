@@ -1,47 +1,37 @@
-export const Skillsdata = [
-  {
-    title: "Programming Languages",
-    tech_stack: ["C", "C++", "Java", "Kotlin", "JavaScript"],
-  },
-  {
-    title: "Dev Tools",
-    tech_stack: ["GIT", "GITHUB", "DOCKER", "AWS", "Android Studio", "VSCode"],
-  },
-  {
-    title: "Database",
-    tech_stack: ["MariaDB", "MongoDB", "Firebase"],
-  },
-  {
-    title: "Frameworks, Library and API",
-    tech_stack: [
-      "STL (c++)",
-      "React.js",
-      "Node.js",
-      "BOTO3",
-      "Numpy",
-      "Pandas",
-    ],
-  },
-  {
-    title: "Cloud Computing",
-    tech_stack: [
-      "AWS ec2",
-      "AWS cloudfront",
-      "AWS Beanstalk",
-      "Autoscaling",
-      "Load Balancing",
-      "Containerization",
-      "Microservices",
-    ],
-  },
-  {
-    title: "General",
-    tech_stack: [
-      "Data Structures",
-      "Algorithm",
-      "Problem Solving",
-      "Communication",
-      "Hard-Working",
-    ],
-  },
-];
+import cpp from "./cpp.png";
+import kotlin from "./kotlin.png";
+import js from "./js.png";
+import aws from "./aws.png";
+import docker from "./docker.png";
+import git from "./git.png";
+import github from "./github.png";
+import firebase from "./firebase.png";
+import androidStudio from "./androidstudio.png";
+import python from "./python.png";
+import react from "./react.png";
+import mysql from "./mysql.png";
+import mongodb from "./mongodb.png";
+import node from "./node.png";
+import vscode from "./vscode.png";
+import postman from "./postman.png";
+import firestore from "./firestore.png";
+
+export const Skillsdata = {
+  tech_stack: [
+    cpp,
+    kotlin,
+    js,
+    python,
+    aws,
+    mysql,
+    mongodb,
+    firebase,
+    firestore,
+    react,
+    node,
+  ],
+};
+
+export const ToolsData = {
+  tools: [vscode, git, github, postman, androidStudio, docker],
+};
