@@ -1,0 +1,207 @@
+.profile {
+  .profile-img {
+    width: 20vw;
+    border-radius: 50%;
+  }
+}
+
+.profile2 {
+  margin-left: 2rem;
+  padding: 0;
+  .profile-img {
+    width: 16vw;
+    border-radius: 50%;
+  }
+}
+
+.home-component {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 6vw;
+}
+
+.home-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.over-hid {
+  overflow: hidden;
+}
+
+.content {
+  margin: 1rem 0;
+  min-width: 30rem;
+}
+
+.name {
+  font-weight: bold;
+  color: #2196f3;
+}
+
+.home-info {
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+
+.coding {
+  .logo {
+    width: 2.5rem;
+    border: thin solid rgba(0, 0, 0, 0.062);
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    font-size: 40px;
+    color: black;
+  }
+}
+
+.down-component {
+  margin: 6vw;
+
+  .hobby {
+    margin-top: 2rem;
+    ul {
+      list-style-type: none;
+      text-decoration: none;
+    }
+    ul.dashed {
+      list-style: none;
+      margin-left: 1rem;
+      padding-left: 1em;
+    }
+    ul.dashed > li:before {
+      display: inline-block;
+      content: "-";
+      width: 1em;
+      margin-left: -1em;
+    }
+  }
+}
+
+.contact-component {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+
+  h1 {
+    text-align: center;
+  }
+  h5 {
+    text-align: center;
+  }
+
+  .contact-icons {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .link {
+      color: rgb(255, 255, 255);
+      background-color: #000000ab;
+      border-radius: 50%;
+      padding: 0.5rem;
+      margin: 0.25rem;
+    }
+
+    .link:hover {
+      background-color: black;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1100px) and (min-width: 601px) {
+  .home-info {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .profile {
+    .profile-img {
+      width: 35vw;
+    }
+  }
+  .profile2 {
+    margin-left: 0;
+    .profile-img {
+      width: 25vw;
+    }
+  }
+
+  .name-intro {
+    font-size: 24px;
+  }
+
+  .content {
+    margin: 1rem 0;
+    min-width: 0rem;
+    h3 {
+      font-size: large;
+    }
+  }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  .home-component {
+    margin: 0 5vw;
+  }
+
+  .home-card {
+    display: block;
+  }
+
+  .profile {
+    display: flex;
+    justify-content: center;
+    .profile-img {
+      width: 65vw;
+      padding: 0.25rem;
+    }
+  }
+
+  .profile2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    .profile-img {
+      margin-top: 1rem;
+      width: 35vw;
+    }
+  }
+
+  .home-info {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+
+  .content {
+    margin: 1rem 0;
+    min-width: 0rem;
+    h3 {
+      font-size: large;
+    }
+  }
+
+  .name-intro {
+    font-size: 24px;
+  }
+
+  .contact-component{
+    h1{
+      font-size: 32px;
+    }
+    h5{
+      font-size: 16px;
+    }
+    
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+}

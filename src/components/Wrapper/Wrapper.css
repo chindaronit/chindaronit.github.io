@@ -1,0 +1,13 @@
+.wrapper {
+  margin: 0rem 0;
+  padding: 0rem 10vw;
+  box-sizing: border-box;
+}
+  
+
+@media only screen and (max-width: 1024px) {
+  .wrapper {
+    margin: 0;
+    padding: 0;
+  }
+}

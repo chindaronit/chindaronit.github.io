@@ -1,0 +1,55 @@
+.about-component {
+  padding: 5vh 5vw;
+}
+
+.about-card {
+  position: relative;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0);
+  transition: 0.5s box-shadow ease-in-out;
+  .logo {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    .icon {
+      width: 4rem;
+    }
+  }
+}
+
+.about-card:hover {
+  box-shadow: 0 4px 4px 0 rgba(33, 150, 243, 0.5),
+        0 6px 20px 0 rgba(33, 150, 243, 0.5);
+}
+
+@media only screen and (max-width: 600px) {
+  .about-component {
+    padding: 5vh 2vw;
+    h1{
+      font-size: 32px;
+    }
+  }
+
+  .about-card-opposite {
+    font-size: 12px !important;
+  }
+  .about-card {
+    width: 12rem;
+
+    .logo {
+      top: 5%;
+      right: 5%;
+      .icon {
+        width: 1.75rem;
+      }
+    }
+    .card_title {
+      font-size: medium;
+    }
+    .card_subtitle {
+      font-size: smaller;
+    }
+    .card_desc {
+      font-size: smaller;
+    }
+  }
+}

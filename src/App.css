@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section-title {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+}
+.section-subtitle {
+  text-align: center;
+}
+
+.hyphen {
+  list-style-type: none; /* Remove default bullet point */
+}
+
+.hyphen li::marker {
+  content: "-  ";
+}
