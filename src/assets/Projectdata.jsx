@@ -1,28 +1,17 @@
-import influx from "./influx.png";
 import upsideAvenue from "./upsideAvenue.png";
 import checkers from "./checkers.png";
-import penny from "./penny.png";
+import NagaConnect from "./NagaConnect_Asset.png";
 
 export const Projectdata = [
   {
-    img: penny,
-    title: "Penny",
-    subtitle: "Personal Project",
+    img: NagaConnect,
+    title: "NagaConnect",
+    subtitle: "Internship Project",
     desc: [
-      "Penny—an expense tracker to help you monitor your spending. Penny allows users to log transactions, manage accounts and provides monthly spending analysis based on predefined categories like groceries, travel, food, shopping, rent, etc. ",
+      "NagaConnect is a platform that connects job seekers with employers in Nagaland’s unorganized and semi-organized sectors. It focuses on local roles in driving, hospitality, tourism, office work, and labor. Businesses can use the platform to hire workers, list products, and advertise, supporting both employment and regional business growth.",
     ],
-    tech_stack: ["Kotlin", "Firebase Authentication", "Firebase Firestore"],
-    link: "https://github.com/chindaronit/penny",
-  },
-  {
-    img: influx,
-    title: "Influx",
-    subtitle: "Personal Project",
-    desc: [
-      "Influx is an OTT Platform provides seemless streaming experience with simple and interactive interface with personalised recommender system.",
-    ],
-    tech_stack: ["MongoDB", "React.js", "Node.js", "Docker", "AWS"],
-    link: "https://github.com/chindaronit/influx",
+    tech_stack: ["Kotlin", "Firebase", "Node.js", "Gemini API"],
+    link: "https://chindaronit.github.io" ,
   },
   {
     img: upsideAvenue,

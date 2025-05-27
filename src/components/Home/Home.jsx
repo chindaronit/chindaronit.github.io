@@ -39,7 +39,7 @@ const Home = () => {
                 </a>
               </div>
               <div className="mt-4">
-                <a href="https://drive.google.com/uc?export=download&id=19JoGgDD2zClQ9nJ3bCALUNoJ5i7kA2CK">
+                <a href="https://drive.google.com/uc?export=download&id=1DkvQrh76XgTLUJyV7U2NPF9hqjtVxFbB">
                   <Button variant="dark button">Resume</Button>
                 </a>
                 <a href="#contact">

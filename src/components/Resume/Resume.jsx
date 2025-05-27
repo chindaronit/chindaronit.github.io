@@ -18,7 +18,7 @@ const Resume = () => {
   return (
     <Wrapper>
       <div className="download-cv">
-        <a href="https://drive.google.com/uc?export=download&id=19JoGgDD2zClQ9nJ3bCALUNoJ5i7kA2CK">
+        <a href="https://drive.google.com/uc?export=download&id=1DkvQrh76XgTLUJyV7U2NPF9hqjtVxFbB">
           <Button variant="contained" startIcon={<DownloadIcon />}>
             Download CV
           </Button>
@@ -34,4 +34,3 @@ const Resume = () => {
 };
 
 export default Resume;
-

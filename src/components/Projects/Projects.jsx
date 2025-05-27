@@ -1,4 +1,3 @@
-import React from "react";
 import Wrapper from "../Wrapper/Wrapper";
 import Card from "react-bootstrap/Card";
 import { Projectdata } from "../../assets/Projectdata";

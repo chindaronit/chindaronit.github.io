@@ -1,4 +1,5 @@
 import gmat from "./gmat.png";
+import NagaConnect from "./NagaConnect.png";
 
 export const Aboutdata = [
   {
@@ -20,14 +21,21 @@ export const Aboutdata = [
     additional: "CGPA - 8.51",
   },
   {
-    title: "Application Development Intern",
+    title: "Android Application Intern",
     card_title: "GMAT",
-    logo: [
-      gmat,
-      "https://upload.wikimedia.org/wikipedia/en/2/22/Indian_Institute_of_Information_Technology%2C_Guwahati_Logo.svg",
-    ],
-    time: "Aug 2024 - Dec 2024",
+    logo: [gmat],
+    time: "Aug 2024 - Nov 2024",
     additional:
       "Developed an Protoype for UPI integrated mechanism to increase GST compliance.",
+  },
+  {
+    title: "Android Application Intern",
+    card_title: "NagaConnnect",
+    logo: [
+      NagaConnect
+    ],
+    time: "Dec 2024 - May 2025",
+    additional:
+      "Developed an Android Application to boost employement and enhance local business for Nagaland.",
   },
 ];
