@@ -18,7 +18,7 @@ const Resume = () => {
   return (
     <Wrapper>
       <div className="download-cv">
-        <a href="https://drive.google.com/uc?export=download&id=1DkvQrh76XgTLUJyV7U2NPF9hqjtVxFbB">
+        <a href="https://drive.google.com/uc?export=download&id=1SrjSQr1Bkg6wZ6bdg0wT4wqqiJh-2I3j">
           <Button variant="contained" startIcon={<DownloadIcon />}>
             Download CV
           </Button>

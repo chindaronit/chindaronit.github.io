@@ -8,10 +8,9 @@ const Content = () => {
         I'm a{" "}
         <ReactTyped
           strings={[
-            "Computer Science Student",
-            "Full Stack Web Developer",
-            "Leetcoder",
-            "Kotlin Developer",
+            "Engineer at Samsung Research",
+            "Android Developer",
+            "Computer Science Student"
           ]}
           typeSpeed={100}
           loop

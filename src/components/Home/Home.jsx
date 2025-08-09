@@ -1,11 +1,8 @@
-import React from "react";
 import Button from "react-bootstrap/Button";
 import "./Home.css";
 import Wrapper from "../Wrapper/Wrapper";
 import Content from "./Content";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import gfg from "../../assets/gfg.png";
-import leetcode from "../../assets/leetcode.png";
 import profile from "../../assets/profile3.jpg";
 import profile2 from "../../assets/profile2.png";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -23,31 +20,18 @@ const Home = () => {
           </div>
           <div className="home-info">
             <h1 className="name-intro">
-              Hey There! <span className="name">I'M RONIT CHINDA</span>
+              Hey There! <span className="name">I'M RONIT</span>
             </h1>
             <Content />
-            <div>
-              <div className="coding d-flex mt-5">
-                <a href="https://auth.geeksforgeeks.org/user/chinda_ronit/">
-                  <img src={gfg} alt="gfg" className="logo" />
-                </a>
-                <a href="https://leetcode.com/victus_/">
-                  <img src={leetcode} alt="leetcode" className="ml-2 logo" />
-                </a>
-                <a href="https://github.com/chindaronit">
-                  <GitHubIcon className="logo ml-2" />
-                </a>
-              </div>
-              <div className="mt-4">
-                <a href="https://drive.google.com/uc?export=download&id=1DkvQrh76XgTLUJyV7U2NPF9hqjtVxFbB">
-                  <Button variant="dark button">Resume</Button>
-                </a>
-                <a href="#contact">
-                  <Button variant="dark button" className="ml-3">
-                    Get In Touch...
-                  </Button>
-                </a>
-              </div>
+            <div className="mt-4">
+              <a href="https://drive.google.com/uc?export=download&id=1SrjSQr1Bkg6wZ6bdg0wT4wqqiJh-2I3j">
+                <Button variant="dark button">Resume</Button>
+              </a>
+              <a href="#contact">
+                <Button variant="dark button" className="ml-3">
+                  Get In Touch...
+                </Button>
+              </a>
             </div>
           </div>
         </div>
@@ -57,13 +41,15 @@ const Home = () => {
         <div className="home-card">
           <div className="home-info">
             <h1 className="name-intro">
-              LEMME' <span className="name">INTRODUCE</span> MYSELF
+              LET ME <span className="name">INTRODUCE</span> MYSELF
             </h1>
             Hey Everybody I'm Ronit from{" "}
-            <span className="name"> Rohtak, Haryana.</span> Currently a Computer
-            Science student at <span className="name"> IIIT GUWAHATI </span>,
-            Building a strong foundation through learning something useful, with
-            a passion for innovation and collaboration in the tech industry.
+            <span className="name"> Rohtak, Haryana.</span> Currently working in
+            Samsung research, on building Agentic AI automation frameworks,
+            Studied Computer Science at{" "}
+            <span className="name"> IIIT GUWAHATI </span>, Building a strong
+            foundation through learning something useful, with a passion for
+            innovation and collaboration in the tech industry.
             <br />
             <div className="hobby">
               <h4>
@@ -73,7 +59,7 @@ const Home = () => {
                 <li>I love to code.</li>
                 <li>Read Books</li>
                 <li>Play Badminton</li>
-                <li>Learn about finances and Investment.</li>
+                <li>Learn about finances and investment.</li>
               </ul>
             </div>
             <Link to={"/about"}>
