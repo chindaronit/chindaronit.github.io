@@ -1,5 +1,6 @@
 import gmat from "./gmat.png";
 import NagaConnect from "./NagaConnect.png";
+import Samsung from "./Font-Samsung-Logo.jpg";
 
 export const Aboutdata = [
   {
@@ -17,8 +18,8 @@ export const Aboutdata = [
     logo: [
       "https://upload.wikimedia.org/wikipedia/en/2/22/Indian_Institute_of_Information_Technology%2C_Guwahati_Logo.svg",
     ],
-    time: "Dec 2021 - May 2025",
-    additional: "CGPA - 8.51",
+    time: "Dec 2021 - Jun 2025",
+    additional: "CGPA - 8.61",
   },
   {
     title: "Android Application Intern",
@@ -31,11 +32,17 @@ export const Aboutdata = [
   {
     title: "Android Application Intern",
     card_title: "NagaConnnect",
-    logo: [
-      NagaConnect
-    ],
+    logo: [NagaConnect],
     time: "Dec 2024 - May 2025",
     additional:
       "Developed an Android Application to boost employement and enhance local business for Nagaland.",
+  },
+  {
+    title: "Engineer",
+    card_title: "Samsung Research",
+    logo: [Samsung],
+    time: "July 2025 - Present",
+    additional:
+      "Working as an Engineer in Samsung Research, on Agentic AI frameworks for automation.",
   },
 ];
